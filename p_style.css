@@ -1,0 +1,88 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.content {
+    
+    height: 200px;
+    background-color: steelblue;
+    margin: 10px 0 10px 0;
+}
+h1 
+{
+    font-size: 40px;
+    font-family: 'Palatino Linotype';
+    text-align: center;
+    color: tomato;
+    background-color: darkcyan
+}
+.header
+{ 
+    font-family: 'Palatino Linotype';
+    background-color: salmon;
+    color: salmon;
+}
+.body
+{   
+    background-color: lightslategray;
+    font-family: 'Palatino Linotype';
+    font-size: 30px;
+}
+.column1of3
+{
+    font-family: 'Palatino Linotype';
+    font-size: 25px;
+    font-style: thick;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    background-color: goldenrod;
+    color: darkcyan;
+    
+}
+.dropdown-menu
+{
+    background-color: slategrey;
+    color: mediumseagreen;
+}
+.footer 
+{
+    font-family: 'Palatino Linotype';
+    font-size: 20px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: goldenrod;
+    color: darkcyan;
+    text-align: center;
+    position: fixed;
+ }
+ .selfie
+{
+    float: left;
+    border-color: darkolivegreen;
+    border-bottom: 10px;
+    border-top: 10px;
+    border-left: 8px;
+    border-right: 8px;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+.element.style
+{
+    
+    margin: 7px;
+}
+ 
